@@ -1,0 +1,1 @@
+google-chrome --headless --user-data-dir=/home/nfultz/.config/google-chrome/ --profile-directory="Profile 1" --dump-dom "https://forums.somethingawful.com/showthread.php?threadid=3938867&goto=lastpost"
