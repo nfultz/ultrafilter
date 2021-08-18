@@ -1,5 +1,5 @@
 #1/bin/bash
-google-chrome --headless --user-data-dir=/home/nfultz/.config/google-chrome/ --profile-directory="Profile 1" --dump-dom "https://forums.somethingawful.com/showthread.php?threadid=3938867&goto=lastpost" > ultrafilter.html
+google-chrome --headless --user-data-dir=/home/nfultz/.config/google-chrome/ --profile-directory="Default" --dump-dom "https://forums.somethingawful.com/showthread.php?threadid=3938867&goto=lastpost" > ultrafilter.html
 
 xmlstarlet fo -H ultrafilter.html 2>/dev/null | xmlstarlet tr /home/nfultz/projects/ultrafilter/rss.xsl >test.rss
 
